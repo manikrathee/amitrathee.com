@@ -1,0 +1,216 @@
+/*  HTML5 ✰ Boilerplate  */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #fff; color:#000; text-shadow: none; }
+::selection { background:#fff; color:#000; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+body, select, input, textarea {  color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+/*
+    // ========================================== \\
+   ||                                              ||
+   ||               Your styles !                  ||
+   ||                                              ||
+    \\ ========================================== //
+*/
+
+body{font-family:helvetica,sans-serif;font-size:20px;color:#fff;text-shadow:#000 1px 1px 0;}
+
+.red{background:red;}
+h1{font-size:14px;margin-top:-8px;}
+
+.logo{margin-top:50px;}
+#logo{}
+
+.description{font-weight:700;text-transform:lowercase;font-size:22px;margin-top:35px;}
+
+.social{margin-top:35px;}
+.social .button{height: 48px;width: 400px;background: url(../images/button.png) repeat-x top left;border: 1px solid #fffborder-radius: 10px; -moz-border-radius: 10px;  -webkit-border-radius: 10px;color:#999;text-align:center;}
+.social .button:hover{background: url(../images/button_over.png) repeat-x top left;border: 1px solid #000;-webkit-box-shadow: 0px 0px 20px #fff inset;-moz-box-shadow: 0px 0px 20px #fff inset;box-shadow: 0px 0px 20px #fff inset;}
+.social .button a{font-size:25px;text-transform:uppercase;font-weight:700;}
+
+
+.social .button_text {}
+ 
+/* MODAL - DON'T EDIT */
+#shadow{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0, 0, 0, 0.3);z-index: 10;}
+#logo-modal{text-shadow:none !important;font-size:14px;position: absolute;background: #FFFFFF;width: 320px;padding: 20px;top: 0;z-index: 20;-webkit-border-bottom-left-radius: 10px;-webkit-border-bottom-right-radius: 10px;-moz-border-radius-bottomleft: 10px;-moz-border-radius-bottomright: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+#logo-modal h2{color: #666666;line-height: 20px;position: relative;}
+#logo-modal h2 span{position: absolute;right: 0;top: -2px;display: block;padding: 0px 5px;background: #CC0000;cursor: pointer;color: #FFFFFF;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+#logo-modal h2 span:hover{background: #FF0000;}
+#logo-modal img{margin: 10px 0;max-width: 100%;}
+#logo-modal ul{border-top: 1px solid #CCCCCC;}
+#logo-modal ul li{border-bottom: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;}
+#logo-modal ul li a{text-decoration: none;font-size: 14px;color: #44c9aa;display: block;position: relative;padding: 10px 20px;}
+#logo-modal ul li a:hover{background: #EFEFEF;}
+#logo-modal ul li a span{position: absolute;right: 20px;color: #999999;font-size: 12px;}
+	
+	
+/*
+    // ========================================== \\
+   ||                                              ||
+   ||               MEDIA QUERIES                  ||
+   ||                                              ||
+    \\ ========================================== //
+*/
+
+/* --------------------------------------------
+   < OVER 1200px viewport
+-------------------------------------------- */			
+				
+@media (min-width: 1200px) {
+	
+}
+
+
+/* --------------------------------------------
+   <  1200px viewport
+-------------------------------------------- */			
+				
+@media (max-width: 1200px) {
+	
+}
+
+
+/* --------------------------------------------
+  iPad in landscape
+-------------------------------------------- */
+
+/* 	
+	TO PREVIEW ON THE DESKTOP, REPLACE THE QUERY WITH THE FOLLOW:
+	@media (max-width: 1024px) {  } 
+	REAL QUERY
+	@media (max-device-width: 1024px) and (orientation: landscape) { }
+*/
+	
+@media (max-device-width: 1024px) and (orientation: landscape) {
+
+}
+
+
+/* --------------------------------------------
+  iPad in portrait
+-------------------------------------------- */
+
+/* 	
+	TO PREVIEW ON THE DESKTOP, REPLACE THE QUERY WITH THE FOLLOW:
+	@media (max-width: 768px) {  } 
+	
+	REAL QUERY     
+	@media (max-device-width: 1024px) and (orientation: portrait) { }
+*/
+
+@media (max-device-width: 1024px) and (orientation: portrait) { 
+
+
+}
+
+/* --------------------------------------------
+  Mobile
+-------------------------------------------- */
+
+@media handheld and (max-width: 480px),
+       screen and (max-device-width: 480px),
+       screen and (max-width: 600px) {
+
+	
+}
+
+/* --------------------*/
+/* --------------------*/
+/* --------------------*/
+/* --------------------*/
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } 
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
