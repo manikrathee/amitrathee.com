@@ -100,11 +100,10 @@ address{display:block;margin-bottom:18px;line-height:18px;font-style:normal;}
 small{font-size:100%;}
 cite{font-style:normal;}
 html{height:100%;}
-body{height:100%;color:#fff;text-shadow:#000 1px 1px 0;font-size:14px;line-height:1.4;}body a{color:#fff;text-shadow:1px 1px 0 #000;text-decoration:none;}body a:hover{color:#333;}
+body{height:100%;color:#fff;text-shadow:#000 1px 1px 0;font-size:14px;line-height:1.4;font-weight:900;}body a{color:#fff;text-shadow:1px 1px 0 #000;text-decoration:none;}body a:hover{color:#333;}
 body h1{font-size:inherit;margin-top:-2px;color:#fff;}
 body #header{margin:0;padding:0;}body #header #logo{margin-top:50px;}
 body #twitter{color:#fff;text-shadow:1px 1px 0 #000;text-transform:lowercase;background:url(../images/quote.png) repeat-y top left;padding:0 0 0 20px;margin:20px 0;}body #twitter .follow{font-size:12px;}
 body #twitter ul{list-style:none;text-indent:none;padding:0;margin:0 0 10px 0;}
 body #about{color:#fff;text-shadow:1px 1px 0 #000;}
-body #social{margin:20px auto;width:300px;clear:both;}body #social .button{padding:5px 5px 1px 5px;float:left;background:#fff;margin:10px;}body #social .button:hover{-webkit-box-shadow:0px 0px 10px 0px #320532;-moz-box-shadow:0px 0px 10px 0px #320532;box-shadow:0px 0px 10px 0px #320532;}
-@media screen and (min-width:1200px){}@media screen and (max-width:1200px){}@media screen and (max-width:1024px){}@media screen and (max-device-width:1024px) and (orientation:landscape){}@media screen and (max-width:768px){}@media screen and (max-device-width:1024px) and (orientation:portrait){}@media handheld and (max-width:480px),screen and (max-device-width:480px),screen and (max-width:600px){}
+body #social{margin:20px auto;width:220px;clear:both;}body #social .button{padding:5px 5px 1px 5px;float:left;background:#fff;margin:10px;}body #social .button:hover{-webkit-box-shadow:0px 0px 10px 0px #320532;-moz-box-shadow:0px 0px 10px 0px #320532;box-shadow:0px 0px 10px 0px #320532;}
